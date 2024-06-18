@@ -28,6 +28,7 @@ subprojects {
             property "sonar.host.url", "http://localhost:9000"
             property "sonar.token", "sqa_00d9b9fa998785d777c14bb9e8e2772312230a92"
             property "sonar.sources", "module-one/src/main/java,module-two/src/main/java"
+            property "sonar.java.binaries", ""
             property "sonar.scm.disabled", "true"
    	    }
     }
